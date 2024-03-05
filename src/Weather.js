@@ -5,7 +5,7 @@ import App from "./App";
 export default function Weather(props) {
   function handleResponse(response) {
     alert(
-      `The weather in ${response.data.main} is $[response.data.main.temp] C`
+      `The weather in ${response.data.main} is ${response.data.main.temp} C`
     );
   }
 
