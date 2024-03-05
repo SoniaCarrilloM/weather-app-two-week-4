@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          This project was coded by
+          Weather App This project was coded by
           <a
             className="linkGit"
             href="https://github.com/SoniaCarrilloM"
