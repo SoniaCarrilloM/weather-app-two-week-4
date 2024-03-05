@@ -1,9 +1,12 @@
 import Axios from "axios";
 import React from "react";
+import App from "./App";
 
 export default function Weather(props) {
   function handleResponse(response) {
-    alert(`The weather in New York is $[response.data.main.temp] C`);
+    alert(
+      `The weather in ${response.data.main} is $[response.data.main.temp] C`
+    );
   }
 
   let apiKey = "3a94f3778290bfeee61278505dbbe51d";
